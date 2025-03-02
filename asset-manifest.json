@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-ui-ux/static/css/main.d3e91ddf.css",
-    "main.js": "/portfolio-ui-ux/static/js/main.9046d2d7.js",
+    "main.js": "/portfolio-ui-ux/static/js/main.f436e3e6.js",
     "static/media/Slovo_16.png": "/portfolio-ui-ux/static/media/Slovo_16.fc1b8aa312d7b8e749a7.png",
     "static/media/playground.png": "/portfolio-ui-ux/static/media/playground.f26c71934c723da6cc0a.png",
     "static/media/OS_5.png": "/portfolio-ui-ux/static/media/OS_5.47f384dd334a0668da79.png",
@@ -96,10 +96,10 @@
     "static/media/footertext.png": "/portfolio-ui-ux/static/media/footertext.1615fdc93a18db0be845.png",
     "index.html": "/portfolio-ui-ux/index.html",
     "main.d3e91ddf.css.map": "/portfolio-ui-ux/static/css/main.d3e91ddf.css.map",
-    "main.9046d2d7.js.map": "/portfolio-ui-ux/static/js/main.9046d2d7.js.map"
+    "main.f436e3e6.js.map": "/portfolio-ui-ux/static/js/main.f436e3e6.js.map"
   },
   "entrypoints": [
     "static/css/main.d3e91ddf.css",
-    "static/js/main.9046d2d7.js"
+    "static/js/main.f436e3e6.js"
   ]
 }
