@@ -29,7 +29,7 @@ function App() {
             <Route path="visionos" element={<VisionOS />} />
             <Route path="HabotAdminPortal" element={<ProtectedHabotAdminPortal />} /> {/* Now password protected */}
             <Route path="snouters" element={<Snouters />} />
-            <Route path="MyWork" element={<Mywork />} />
+            <Route path="mywork" element={<Mywork />} />
             <Route path="slovo" element={<Slovo />} />
           </Routes>
         </main>

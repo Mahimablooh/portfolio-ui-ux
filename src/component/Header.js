@@ -1,5 +1,6 @@
 import React from "react";
 import { AppBar, Toolbar, Button, Box } from "@mui/material";
+import { Link } from "react-router-dom"; // Import Link from react-router-dom
 import logo from "../Assets/logo.png";
 import myWorkIcon from "../Assets/Mywork.png";
 import blogIcon from "../Assets/Blog.png";
@@ -12,16 +13,34 @@ function Header() {
       <Toolbar sx={{ justifyContent: "space-between", padding: "0px 0px" }}>
         <Box component="img" src={logo} alt="Logo" sx={{ width: "62px", height: "62px" }} />
         <Box sx={{ display: "flex", gap: "24px" }}>
-          <Button href="/portfolio-ui-ux/mywork" sx={{ minWidth: "auto", padding: 0 }}>
+          <Button
+            component={Link} // This makes the button behave like a link
+            to="/portfolio-ui-ux/mywork"
+            sx={{ minWidth: "auto", padding: 0 }}
+          >
             <Box component="img" src={myWorkIcon} alt="My Work" sx={{ width: "120px", height: "52px" }} />
           </Button>
-          <Button href="https://medium.com/@mahima.30420" target="_blank" rel="noopener noreferrer" sx={{ minWidth: "auto", padding: 0 }}>
+          <Button
+            component="a" // For external links, use 'a' tag
+            href="https://medium.com/@mahima.30420"
+            target="_blank"
+            rel="noopener noreferrer"
+            sx={{ minWidth: "auto", padding: 0 }}
+          >
             <Box component="img" src={blogIcon} alt="Blog" sx={{ width: "120px", height: "52px" }} />
           </Button>
-          <Button href="/portfolio-ui-ux/about" sx={{ minWidth: "auto", padding: 0 }}>
+          <Button
+            component={Link} // This makes the button behave like a link
+            to="/portfolio-ui-ux/about"
+            sx={{ minWidth: "auto", padding: 0 }}
+          >
             <Box component="img" src={aboutIcon} alt="About" sx={{ width: "120px", height: "52px" }} />
           </Button>
-          <Button href="/portfolio-ui-ux/resume" sx={{ minWidth: "auto", padding: 0 }}>
+          <Button
+            component={Link} // This makes the button behave like a link
+            to="/portfolio-ui-ux/resume"
+            sx={{ minWidth: "auto", padding: 0 }}
+          >
             <Box component="img" src={resumeIcon} alt="Resume" sx={{ width: "120px", height: "52px" }} />
           </Button>
         </Box>
