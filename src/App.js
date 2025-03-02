@@ -12,7 +12,7 @@ import ProtectedHabotAdminPortal from "./component/ProtectedProjectHabotAdminPor
 
 function App() {
   return (
-    <Router basename="/portfolio-ui-ux/">
+    <Router basename="portfolio-ui-ux">
       <div
         style={{
           display: "flex",
