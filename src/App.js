@@ -24,13 +24,13 @@ function App() {
         <Header />
         <main style={{ margin: "54px", flexGrow: 1 }}>
           <Routes>
-            <Route path="/" element={<MainContent />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/visionos" element={<VisionOS />} />
-            <Route path="/HabotAdminPortal" element={<ProtectedHabotAdminPortal />} /> {/* Now password protected */}
-            <Route path="/snouters" element={<Snouters />} />
-            <Route path="/MyWork" element={<Mywork />} />
-            <Route path="/slovo" element={<Slovo />} />
+            <Route path="" element={<MainContent />} />
+            <Route path="about" element={<About />} />
+            <Route path="visionos" element={<VisionOS />} />
+            <Route path="HabotAdminPortal" element={<ProtectedHabotAdminPortal />} /> {/* Now password protected */}
+            <Route path="snouters" element={<Snouters />} />
+            <Route path="MyWork" element={<Mywork />} />
+            <Route path="slovo" element={<Slovo />} />
           </Routes>
         </main>
         <Footer />
