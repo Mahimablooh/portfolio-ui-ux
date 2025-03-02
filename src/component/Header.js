@@ -12,16 +12,16 @@ function Header() {
       <Toolbar sx={{ justifyContent: "space-between", padding: "0px 0px" }}>
         <Box component="img" src={logo} alt="Logo" sx={{ width: "62px", height: "62px" }} />
         <Box sx={{ display: "flex", gap: "24px" }}>
-          <Button href="/mywork" sx={{ minWidth: "auto", padding: 0 }}>
+          <Button href="/portfolio-ui-ux/mywork" sx={{ minWidth: "auto", padding: 0 }}>
             <Box component="img" src={myWorkIcon} alt="My Work" sx={{ width: "120px", height: "52px" }} />
           </Button>
           <Button href="https://medium.com/@mahima.30420" target="_blank" rel="noopener noreferrer" sx={{ minWidth: "auto", padding: 0 }}>
             <Box component="img" src={blogIcon} alt="Blog" sx={{ width: "120px", height: "52px" }} />
           </Button>
-          <Button href="/about" sx={{ minWidth: "auto", padding: 0 }}>
+          <Button href="/portfolio-ui-ux/about" sx={{ minWidth: "auto", padding: 0 }}>
             <Box component="img" src={aboutIcon} alt="About" sx={{ width: "120px", height: "52px" }} />
           </Button>
-          <Button href="/resume" sx={{ minWidth: "auto", padding: 0 }}>
+          <Button href="/portfolio-ui-ux/resume" sx={{ minWidth: "auto", padding: 0 }}>
             <Box component="img" src={resumeIcon} alt="Resume" sx={{ width: "120px", height: "52px" }} />
           </Button>
         </Box>
