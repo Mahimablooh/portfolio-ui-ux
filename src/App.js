@@ -9,6 +9,7 @@ import VisionOS from "./component/ProjectVisionOSTwitch";
 import Mywork from "./component/MainContent";
 import Slovo from "./component/ProjectSlovo";
 import ProtectedHabotAdminPortal from "./component/ProtectedProjectHabotAdminPortal"; // Use protected version
+import Resume from "./component/Resume";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
             <Route path="snouters" element={<Snouters />} />
             <Route path="mywork" element={<Mywork />} />
             <Route path="slovo" element={<Slovo />} />
+            <Route path="/resume" element={<Resume />} />
           </Routes>
         </main>
         <Footer />
