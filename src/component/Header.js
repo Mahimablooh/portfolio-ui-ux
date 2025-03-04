@@ -37,8 +37,10 @@ function Header() {
             <Box component="img" src={aboutIcon} alt="About" sx={{ width: "120px", height: "52px" }} />
           </Button>
           <Button
-            component={Link} // This makes the button behave like a link
-            to="/resume"
+            component="a"
+            href="/Mahima_Verma.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             sx={{ minWidth: "auto", padding: 0 }}
           >
             <Box component="img" src={resumeIcon} alt="Resume" sx={{ width: "120px", height: "52px" }} />
