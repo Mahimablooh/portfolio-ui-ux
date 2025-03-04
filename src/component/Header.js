@@ -15,7 +15,7 @@ function Header() {
         <Box sx={{ display: "flex", gap: "24px" }}>
           <Button
             component={Link} // This makes the button behave like a link
-            to="/portfolio-ui-ux/mywork"
+            to="/mywork"
             sx={{ minWidth: "auto", padding: 0 }}
           >
             <Box component="img" src={myWorkIcon} alt="My Work" sx={{ width: "120px", height: "52px" }} />
@@ -31,14 +31,14 @@ function Header() {
           </Button>
           <Button
             component={Link} // This makes the button behave like a link
-            to="/About"
+            to="/about"
             sx={{ minWidth: "auto", padding: 0 }}
           >
             <Box component="img" src={aboutIcon} alt="About" sx={{ width: "120px", height: "52px" }} />
           </Button>
           <Button
             component={Link} // This makes the button behave like a link
-            to="/portfolio-ui-ux/resume"
+            to="/resume"
             sx={{ minWidth: "auto", padding: 0 }}
           >
             <Box component="img" src={resumeIcon} alt="Resume" sx={{ width: "120px", height: "52px" }} />
