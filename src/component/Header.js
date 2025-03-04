@@ -38,7 +38,7 @@ function Header() {
           </Button>
           <Button
             component="a"
-            href="/Mahima_Verma.pdf"
+            href="/portfolio-ui-ux/Mahima_Verma.pdf"
             target="_blank"
             rel="noopener noreferrer"
             sx={{ minWidth: "auto", padding: 0 }}
