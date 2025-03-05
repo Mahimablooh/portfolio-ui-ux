@@ -21,7 +21,7 @@ function Header() {
             <Box component="img" src={myWorkIcon} alt="My Work" sx={{ width: "120px", height: "52px" }} />
           </Button>
           <Button
-            component="a" // For external links, use 'a' tag
+            component="a"
             href="https://medium.com/@mahima.30420"
             target="_blank"
             rel="noopener noreferrer"
@@ -30,7 +30,7 @@ function Header() {
             <Box component="img" src={blogIcon} alt="Blog" sx={{ width: "120px", height: "52px" }} />
           </Button>
           <Button
-            component={Link} // This makes the button behave like a link
+            component={Link}
             to="/about"
             sx={{ minWidth: "auto", padding: 0 }}
           >
